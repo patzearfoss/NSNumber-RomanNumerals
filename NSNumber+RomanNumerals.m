@@ -11,7 +11,7 @@
 
 - (NSString *)romanNumeral
 {
-    NSInteger n = [self intValue];
+    NSInteger n = [self integerValue];
 
     NSArray *numerals = [NSArray arrayWithObjects:@"M", @"CM", @"D", @"CD", @"C", @"XC", @"L", @"XL", @"X", @"IX", @"V", @"IV", @"I", nil];
     
